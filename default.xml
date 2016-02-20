@@ -12,7 +12,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="copperheados/platform_build" groups="pdk" remote="github" >
+  <project path="build" name="CopperheadOS-Tab-S/platform_build" groups="pdk" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -196,7 +196,7 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="copperheados/platform_external_sepolicy" groups="pdk" remote="github"/>
+  <project path="external/sepolicy" name="CopperheadOS-Tab-S/platform_external_sepolicy" groups="pdk" remote="github"/>
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
@@ -232,8 +232,8 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="copperheados/platform_frameworks_av" groups="pdk" remote="github" />
-  <project path="frameworks/base" name="copperheados/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github"/>
+  <project path="frameworks/av" name="CopperheadOS-Tab-S/platform_frameworks_av" groups="pdk" remote="github" />
+  <project path="frameworks/base" name="CopperheadOS-Tab-S/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -242,7 +242,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="copperheados/platform_frameworks_native" groups="pdk" remote="github"/>
+  <project path="frameworks/native" name="CopperheadOS-Tab-S/platform_frameworks_native" groups="pdk" remote="github"/>
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -328,7 +328,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="copperheados/platform_packages_apps_Settings" groups="pdk-fs" remote="github" />
+  <project path="packages/apps/Settings" name="CopperheadOS-Tab-S/platform_packages_apps_Settings" groups="pdk-fs" remote="github" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
@@ -402,7 +402,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="copperheados/platform_system_core" groups="pdk" remote="github" />
+  <project path="system/core" name="CopperheadOS-Tab-S/platform_system_core" groups="pdk" remote="github" />
   <project path="system/extras" name="copperheados/platform_system_extras" groups="pdk" remote="github" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
