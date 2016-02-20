@@ -15,6 +15,9 @@
   <project path="build" name="CopperheadOS-Tab-S/platform_build" groups="pdk" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="android" name="CopperheadOS-Tab-S/platform_manifest" remote="github" revision="marshmallow" groups="pdk" >
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="copperheados/platform_bionic" groups="pdk" remote="github" />
