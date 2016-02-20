@@ -26,6 +26,7 @@
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/chagall-klimt-common" name="Schischu/android_device_samsung_chagall_klimt_common" remote="github" revision="aosp-6.0" groups="device,chagall_klimt,broadcom_pdk" />
   <project path="device/samsung/chagallwifi" name="Schischu/android_device_samsung_chagallwifi" remote="github" revision="aosp-6.0" groups="device,chagallwifi,broadcom_pdk" />
   <project path="device/samsung/chagalllte" name="Schischu/android_device_samsung_chagalllte" remote="github" revision="aosp-6.0" groups="device,chagalllte,broadcom_pdk" />
